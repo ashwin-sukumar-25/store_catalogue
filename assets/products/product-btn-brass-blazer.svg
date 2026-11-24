@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F7F6F3" />
+      <stop offset="100%" stop-color="#EBE8E2" />
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#262222" flood-opacity="0.12" />
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#262222" flood-opacity="0.08" />
+    </filter>
+    <filter id="crispShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#262222" flood-opacity="0.14" />
+    </filter>
+  </defs>
+
+  <!-- Studio Surface Backdrop -->
+  <rect width="600" height="600" fill="url(#bgGlow)" />
+  <circle cx="300" cy="460" r="180" fill="#262222" opacity="0.04" filter="blur(16px)" />
+
+  <!-- Product Illustration -->
+  <g class="product-graphic" filter="url(#softShadow)">
+    
+  <defs>
+    <radialGradient id="brassGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#F2D179" />
+      <stop offset="35%" stop-color="#C99839" />
+      <stop offset="70%" stop-color="#8F6317" />
+      <stop offset="100%" stop-color="#543A0A" />
+    </radialGradient>
+    <radialGradient id="innerDome" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFE499" />
+      <stop offset="60%" stop-color="#B28225" />
+      <stop offset="100%" stop-color="#6E4B0C" />
+    </radialGradient>
+  </defs>
+  <circle cx="300" cy="290" r="135" fill="url(#brassGrad)" stroke="#E8C36A" stroke-width="5" />
+  <circle cx="300" cy="290" r="115" fill="url(#innerDome)" stroke="#5E400B" stroke-width="4" stroke-dasharray="6,4" />
+  <!-- Embossed Coat of Arms / Crest -->
+  <path d="M 300 210 L 340 230 L 340 285 Q 340 335 300 355 Q 260 335 260 285 L 260 230 Z" fill="#6A490F" stroke="#F5D687" stroke-width="3" />
+  <circle cx="300" cy="265" r="14" fill="#F8DE97" />
+  <path d="M 285 295 Q 300 280 315 295 L 308 325 L 292 325 Z" fill="#F8DE97" />
+  <!-- High specular gleam -->
+  <ellipse cx="260" cy="235" rx="35" ry="16" transform="rotate(-30 260 235)" fill="#FFFFFF" opacity="0.3" />
+
+  </g>
+</svg>

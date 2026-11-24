@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F7F6F3" />
+      <stop offset="100%" stop-color="#EBE8E2" />
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#262222" flood-opacity="0.12" />
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#262222" flood-opacity="0.08" />
+    </filter>
+    <filter id="crispShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#262222" flood-opacity="0.14" />
+    </filter>
+  </defs>
+
+  <!-- Studio Surface Backdrop -->
+  <rect width="600" height="600" fill="url(#bgGlow)" />
+  <circle cx="300" cy="460" r="180" fill="#262222" opacity="0.04" filter="blur(16px)" />
+
+  <!-- Product Illustration -->
+  <g class="product-graphic" filter="url(#softShadow)">
+    
+  <!-- Rolled Fabric Cylinder -->
+  <defs>
+    <linearGradient id="rollGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F3F4F6" />
+      <stop offset="100%" stop-color="#D1D5DB" />
+    </linearGradient>
+  </defs>
+  <!-- Interlining Roll -->
+  <rect x="180" y="160" width="240" height="280" rx="14" fill="url(#rollGrad)" stroke="#E5E7EB" stroke-width="4" />
+  <!-- Microdot adhesive pattern -->
+  <circle cx="205" cy="200" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="229" cy="200" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="253" cy="200" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="277" cy="200" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="301" cy="200" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="325" cy="200" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="349" cy="200" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="373" cy="200" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="397" cy="200" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="205" cy="226" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="229" cy="226" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="253" cy="226" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="277" cy="226" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="301" cy="226" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="325" cy="226" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="349" cy="226" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="373" cy="226" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="397" cy="226" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="205" cy="252" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="229" cy="252" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="253" cy="252" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="277" cy="252" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="301" cy="252" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="325" cy="252" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="349" cy="252" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="373" cy="252" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="397" cy="252" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="205" cy="278" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="229" cy="278" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="253" cy="278" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="277" cy="278" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="301" cy="278" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="325" cy="278" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="349" cy="278" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="373" cy="278" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="397" cy="278" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="205" cy="304" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="229" cy="304" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="253" cy="304" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="277" cy="304" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="301" cy="304" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="325" cy="304" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="349" cy="304" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="373" cy="304" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="397" cy="304" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="205" cy="330" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="229" cy="330" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="253" cy="330" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="277" cy="330" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="301" cy="330" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="325" cy="330" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="349" cy="330" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="373" cy="330" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="397" cy="330" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="205" cy="356" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="229" cy="356" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="253" cy="356" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="277" cy="356" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="301" cy="356" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="325" cy="356" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="349" cy="356" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="373" cy="356" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="397" cy="356" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="205" cy="382" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="229" cy="382" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="253" cy="382" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="277" cy="382" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="301" cy="382" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="325" cy="382" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="349" cy="382" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="373" cy="382" r="2.5" fill="#F07824" opacity="0.45" /><circle cx="397" cy="382" r="2.5" fill="#F07824" opacity="0.45" />
+  <ellipse cx="300" cy="160" rx="120" ry="32" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="3" />
+  <!-- Roll core cardboard tube -->
+  <ellipse cx="300" cy="160" rx="35" ry="10" fill="#8D5B36" />
+  <circle cx="300" cy="160" r="15" fill="#3B1F0B" />
+
+  </g>
+</svg>

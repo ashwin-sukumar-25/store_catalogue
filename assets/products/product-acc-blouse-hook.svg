@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F7F6F3" />
+      <stop offset="100%" stop-color="#EBE8E2" />
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#262222" flood-opacity="0.12" />
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#262222" flood-opacity="0.08" />
+    </filter>
+    <filter id="crispShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#262222" flood-opacity="0.14" />
+    </filter>
+  </defs>
+
+  <!-- Studio Surface Backdrop -->
+  <rect width="600" height="600" fill="url(#bgGlow)" />
+  <circle cx="300" cy="460" r="180" fill="#262222" opacity="0.04" filter="blur(16px)" />
+
+  <!-- Product Illustration -->
+  <g class="product-graphic" filter="url(#softShadow)">
+    
+  <defs>
+    <linearGradient id="nickelWire" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#D1D5DB" />
+      <stop offset="100%" stop-color="#6B7280" />
+    </linearGradient>
+  </defs>
+  <!-- Hook -->
+  <g transform="translate(170, 210) scale(1.4)">
+    <path d="M 20 60 C 20 40, 40 40, 40 60 L 40 25 C 40 10, 60 10, 60 25 L 60 55 C 60 70, 80 70, 80 55" 
+          fill="none" stroke="url(#nickelWire)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <!-- Eye Loop -->
+  <g transform="translate(320, 240) scale(1.4)">
+    <path d="M 20 40 C 20 20, 40 20, 40 40 C 40 20, 60 20, 60 40 C 60 60, 40 60, 40 40" 
+          fill="none" stroke="url(#nickelWire)" stroke-width="12" stroke-linecap="round" />
+  </g>
+
+  </g>
+</svg>

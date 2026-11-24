@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F7F6F3" />
+      <stop offset="100%" stop-color="#EBE8E2" />
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#262222" flood-opacity="0.12" />
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#262222" flood-opacity="0.08" />
+    </filter>
+    <filter id="crispShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#262222" flood-opacity="0.14" />
+    </filter>
+  </defs>
+
+  <!-- Studio Surface Backdrop -->
+  <rect width="600" height="600" fill="url(#bgGlow)" />
+  <circle cx="300" cy="460" r="180" fill="#262222" opacity="0.04" filter="blur(16px)" />
+
+  <!-- Product Illustration -->
+  <g class="product-graphic" filter="url(#softShadow)">
+    
+  <defs>
+    <linearGradient id="tapeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2D2825" />
+      <stop offset="50%" stop-color="#1A1715" />
+      <stop offset="100%" stop-color="#2D2825" />
+    </linearGradient>
+    <linearGradient id="brassTooth" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8C36A" />
+      <stop offset="60%" stop-color="#A67B22" />
+      <stop offset="100%" stop-color="#5E420B" />
+    </linearGradient>
+  </defs>
+  <!-- Fabric tape sides -->
+  <rect x="180" y="80" width="105" height="440" rx="6" fill="url(#tapeGrad)" />
+  <rect x="315" y="80" width="105" height="440" rx="6" fill="url(#tapeGrad)" />
+  <!-- Tape stitching lines -->
+  <line x1="200" y1="80" x2="200" y2="520" stroke="#443D39" stroke-dasharray="6,4" stroke-width="2" />
+  <line x1="400" y1="80" x2="400" y2="520" stroke="#443D39" stroke-dasharray="6,4" stroke-width="2" />
+  <!-- Brass Teeth -->
+  
+      <rect x="275" y="95" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="104" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="114" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="123" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="133" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="142" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="152" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="161" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="171" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="180" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="190" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="199" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="209" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="218" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="228" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="237" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="247" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="256" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="266" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="275" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="285" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="294" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="304" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="313" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="323" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="332" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="342" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="351" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="361" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="370" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="380" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="389" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="399" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="408" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="418" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="427" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="437" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="446" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="456" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="465" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="475" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="484" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+      <rect x="275" y="494" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+      <rect x="301" y="503" width="24" height="11" rx="3" fill="url(#brassTooth)" stroke="#382504" stroke-width="1"/>
+    
+  <!-- Slider & Puller -->
+  <g transform="translate(268, 230)">
+    <polygon points="12,0 52,0 46,65 18,65" fill="#C99839" stroke="#5E400B" stroke-width="3" />
+    <!-- Puller Tab with Hole -->
+    <rect x="24" y="55" width="16" height="75" rx="5" fill="#8F6317" stroke="#4A3105" stroke-width="2.5" />
+    <circle cx="32" cy="115" r="5" fill="#241804" />
+    <text x="32" y="88" font-family="sans-serif" font-size="8" font-weight="bold" fill="#F8DE97" text-anchor="middle">YKK</text>
+  </g>
+
+  </g>
+</svg>

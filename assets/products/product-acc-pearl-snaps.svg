@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F7F6F3" />
+      <stop offset="100%" stop-color="#EBE8E2" />
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#262222" flood-opacity="0.12" />
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#262222" flood-opacity="0.08" />
+    </filter>
+    <filter id="crispShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#262222" flood-opacity="0.14" />
+    </filter>
+  </defs>
+
+  <!-- Studio Surface Backdrop -->
+  <rect width="600" height="600" fill="url(#bgGlow)" />
+  <circle cx="300" cy="460" r="180" fill="#262222" opacity="0.04" filter="blur(16px)" />
+
+  <!-- Product Illustration -->
+  <g class="product-graphic" filter="url(#softShadow)">
+    
+  <defs>
+    <radialGradient id="pearlSphere" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="45%" stop-color="#F3F4F6" />
+      <stop offset="75%" stop-color="#E5E7EB" />
+      <stop offset="100%" stop-color="#9CA3AF" />
+    </radialGradient>
+  </defs>
+  <!-- Pearl Snap Cap -->
+  <circle cx="280" cy="270" r="110" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="6" />
+  <circle cx="280" cy="270" r="88" fill="url(#pearlSphere)" stroke="#D1D5DB" stroke-width="3" />
+  <!-- Metallic Ring Edge -->
+  <circle cx="280" cy="270" r="102" fill="none" stroke="#FFFFFF" stroke-width="4" opacity="0.6" />
+  <!-- Under prong backing ring -->
+  <g transform="translate(380, 340) scale(0.65)">
+    <circle cx="0" cy="0" r="85" fill="none" stroke="#6B7280" stroke-width="14" />
+    <circle cx="75" cy="0" r="10" fill="#4B5563" /><circle cx="23.17627457812106" cy="71.32923872213651" r="10" fill="#4B5563" /><circle cx="-60.67627457812105" cy="44.08389392193549" r="10" fill="#4B5563" /><circle cx="-60.67627457812106" cy="-44.08389392193548" r="10" fill="#4B5563" /><circle cx="23.176274578121042" cy="-71.32923872213652" r="10" fill="#4B5563" />
+  </g>
+
+  </g>
+</svg>

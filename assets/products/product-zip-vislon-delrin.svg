@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F7F6F3" />
+      <stop offset="100%" stop-color="#EBE8E2" />
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#262222" flood-opacity="0.12" />
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#262222" flood-opacity="0.08" />
+    </filter>
+    <filter id="crispShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#262222" flood-opacity="0.14" />
+    </filter>
+  </defs>
+
+  <!-- Studio Surface Backdrop -->
+  <rect width="600" height="600" fill="url(#bgGlow)" />
+  <circle cx="300" cy="460" r="180" fill="#262222" opacity="0.04" filter="blur(16px)" />
+
+  <!-- Product Illustration -->
+  <g class="product-graphic" filter="url(#softShadow)">
+    
+  <defs>
+    <linearGradient id="delrinBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#262222" />
+      <stop offset="100%" stop-color="#141111" />
+    </linearGradient>
+  </defs>
+  <rect x="180" y="80" width="105" height="440" rx="6" fill="#403A3A" />
+  <rect x="315" y="80" width="105" height="440" rx="6" fill="#403A3A" />
+  <!-- Molded Plastic Teeth -->
+  
+      <rect x="270" y="95" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="106" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="118" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="129" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="141" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="152" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="164" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="175" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="187" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="198" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="210" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="221" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="233" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="244" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="256" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="267" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="279" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="290" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="302" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="313" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="325" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="336" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="348" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="359" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="371" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="382" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="394" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="405" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="417" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="428" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="440" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="451" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="463" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="474" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+      <rect x="270" y="486" width="28" height="15" rx="4" fill="#C7D92B" stroke="#9EB015" stroke-width="2"/>
+      <rect x="302" y="497" width="28" height="15" rx="4" fill="#F07824" stroke="#D96010" stroke-width="2"/>
+    
+  <!-- Chunky Sports Slider -->
+  <g transform="translate(265, 240)">
+    <polygon points="10,0 60,0 52,60 18,60" fill="#262222" stroke="#FFFFFF" stroke-width="2.5" />
+    <rect x="27" y="55" width="16" height="65" rx="6" fill="#F07824" />
+  </g>
+
+  </g>
+</svg>

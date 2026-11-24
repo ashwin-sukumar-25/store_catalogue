@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F7F6F3" />
+      <stop offset="100%" stop-color="#EBE8E2" />
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#262222" flood-opacity="0.12" />
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#262222" flood-opacity="0.08" />
+    </filter>
+    <filter id="crispShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#262222" flood-opacity="0.14" />
+    </filter>
+  </defs>
+
+  <!-- Studio Surface Backdrop -->
+  <rect width="600" height="600" fill="url(#bgGlow)" />
+  <circle cx="300" cy="460" r="180" fill="#262222" opacity="0.04" filter="blur(16px)" />
+
+  <!-- Product Illustration -->
+  <g class="product-graphic" filter="url(#softShadow)">
+    
+  <defs>
+    <linearGradient id="elasticGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5E7EB" />
+      <stop offset="50%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#D1D5DB" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="300" cy="200" rx="135" ry="50" fill="url(#elasticGrad)" stroke="#9CA3AF" stroke-width="3" />
+  <!-- Wrapped tape body -->
+  <path d="M 165 200 L 165 370 C 165 410, 435 410, 435 370 L 435 200 Z" fill="url(#elasticGrad)" stroke="#9CA3AF" stroke-width="3" />
+  <!-- Ribbed stretch lines -->
+  <path d="M 165 230 Q 300 265 435 230" fill="none" stroke="#6B7280" stroke-opacity="0.25" stroke-width="2" /><path d="M 165 241 Q 300 276 435 241" fill="none" stroke="#6B7280" stroke-opacity="0.25" stroke-width="2" /><path d="M 165 252 Q 300 287 435 252" fill="none" stroke="#6B7280" stroke-opacity="0.25" stroke-width="2" /><path d="M 165 263 Q 300 298 435 263" fill="none" stroke="#6B7280" stroke-opacity="0.25" stroke-width="2" /><path d="M 165 274 Q 300 309 435 274" fill="none" stroke="#6B7280" stroke-opacity="0.25" stroke-width="2" /><path d="M 165 285 Q 300 320 435 285" fill="none" stroke="#6B7280" stroke-opacity="0.25" stroke-width="2" /><path d="M 165 296 Q 300 331 435 296" fill="none" stroke="#6B7280" stroke-opacity="0.25" stroke-width="2" /><path d="M 165 307 Q 300 342 435 307" fill="none" stroke="#6B7280" stroke-opacity="0.25" stroke-width="2" /><path d="M 165 318 Q 300 353 435 318" fill="none" stroke="#6B7280" stroke-opacity="0.25" stroke-width="2" /><path d="M 165 329 Q 300 364 435 329" fill="none" stroke="#6B7280" stroke-opacity="0.25" stroke-width="2" /><path d="M 165 340 Q 300 375 435 340" fill="none" stroke="#6B7280" stroke-opacity="0.25" stroke-width="2" /><path d="M 165 351 Q 300 386 435 351" fill="none" stroke="#6B7280" stroke-opacity="0.25" stroke-width="2" />
+  <ellipse cx="300" cy="370" rx="135" ry="50" fill="none" stroke="#9CA3AF" stroke-width="3" />
+  <!-- Brand stripe along center -->
+  <path d="M 165 285 Q 300 320 435 285" fill="none" stroke="#F07824" stroke-width="6" />
+
+  </g>
+</svg>

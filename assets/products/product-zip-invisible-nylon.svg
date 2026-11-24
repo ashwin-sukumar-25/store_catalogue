@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F7F6F3" />
+      <stop offset="100%" stop-color="#EBE8E2" />
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#262222" flood-opacity="0.12" />
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#262222" flood-opacity="0.08" />
+    </filter>
+    <filter id="crispShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#262222" flood-opacity="0.14" />
+    </filter>
+  </defs>
+
+  <!-- Studio Surface Backdrop -->
+  <rect width="600" height="600" fill="url(#bgGlow)" />
+  <circle cx="300" cy="460" r="180" fill="#262222" opacity="0.04" filter="blur(16px)" />
+
+  <!-- Product Illustration -->
+  <g class="product-graphic" filter="url(#softShadow)">
+    
+  <defs>
+    <linearGradient id="invTape" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FAFAFA" />
+      <stop offset="50%" stop-color="#EBEAE8" />
+      <stop offset="100%" stop-color="#FAFAFA" />
+    </linearGradient>
+  </defs>
+  <!-- Fabric tape sides -->
+  <rect x="190" y="80" width="105" height="440" rx="4" fill="url(#invTape)" stroke="#D6D4CF" stroke-width="2" />
+  <rect x="305" y="80" width="105" height="440" rx="4" fill="url(#invTape)" stroke="#D6D4CF" stroke-width="2" />
+  <!-- Center seam where coil is hidden on reverse -->
+  <line x1="300" y1="80" x2="300" y2="520" stroke="#F07824" stroke-width="3" stroke-dasharray="8,4" />
+  <!-- Teardrop Invisible Slider -->
+  <g transform="translate(283, 200)">
+    <path d="M 17 0 C 27 0, 34 14, 34 26 C 34 38, 24 50, 17 62 C 10 50, 0 38, 0 26 C 0 14, 7 0, 17 0 Z" fill="#F07824" stroke="#D96010" stroke-width="2" />
+    <circle cx="17" cy="22" r="5" fill="#FFFFFF" />
+  </g>
+
+  </g>
+</svg>

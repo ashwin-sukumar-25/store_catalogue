@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F7F6F3" />
+      <stop offset="100%" stop-color="#EBE8E2" />
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#262222" flood-opacity="0.12" />
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#262222" flood-opacity="0.08" />
+    </filter>
+    <filter id="crispShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#262222" flood-opacity="0.14" />
+    </filter>
+  </defs>
+
+  <!-- Studio Surface Backdrop -->
+  <rect width="600" height="600" fill="url(#bgGlow)" />
+  <circle cx="300" cy="460" r="180" fill="#262222" opacity="0.04" filter="blur(16px)" />
+
+  <!-- Product Illustration -->
+  <g class="product-graphic" filter="url(#softShadow)">
+    
+  <!-- Main Button -->
+  <circle cx="280" cy="270" r="130" fill="#F4F2EB" stroke="#DDD9CF" stroke-width="4" />
+  <circle cx="280" cy="270" r="105" fill="#EAE7DC" stroke="#C5BFB0" stroke-width="2" />
+  <circle cx="280" cy="270" r="95" fill="#FBF9F5" />
+  <!-- Holes -->
+  <circle cx="245" cy="235" r="12" fill="#3A3636" />
+  <circle cx="315" cy="235" r="12" fill="#3A3636" />
+  <circle cx="245" cy="305" r="12" fill="#3A3636" />
+  <circle cx="315" cy="305" r="12" fill="#3A3636" />
+  <!-- Crossed Thread -->
+  <line x1="245" y1="235" x2="315" y2="305" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" />
+  <line x1="315" y1="235" x2="245" y2="305" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" />
+  <line x1="245" y1="235" x2="315" y2="305" stroke="#F07824" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Secondary overlapping button -->
+  <g transform="translate(130, 80) scale(0.65)">
+    <circle cx="280" cy="270" r="130" fill="#262222" stroke="#1F1B1B" stroke-width="4" />
+    <circle cx="280" cy="270" r="105" fill="#332E2E" />
+    <circle cx="280" cy="270" r="95" fill="#2A2626" />
+    <circle cx="245" cy="235" r="12" fill="#0F0E0E" />
+    <circle cx="315" cy="235" r="12" fill="#0F0E0E" />
+    <circle cx="245" cy="305" r="12" fill="#0F0E0E" />
+    <circle cx="315" cy="305" r="12" fill="#0F0E0E" />
+    <line x1="245" y1="235" x2="315" y2="305" stroke="#C7D92B" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  </g>
+</svg>

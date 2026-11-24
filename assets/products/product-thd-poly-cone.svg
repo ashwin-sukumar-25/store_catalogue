@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F7F6F3" />
+      <stop offset="100%" stop-color="#EBE8E2" />
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#262222" flood-opacity="0.12" />
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#262222" flood-opacity="0.08" />
+    </filter>
+    <filter id="crispShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#262222" flood-opacity="0.14" />
+    </filter>
+  </defs>
+
+  <!-- Studio Surface Backdrop -->
+  <rect width="600" height="600" fill="url(#bgGlow)" />
+  <circle cx="300" cy="460" r="180" fill="#262222" opacity="0.04" filter="blur(16px)" />
+
+  <!-- Product Illustration -->
+  <g class="product-graphic" filter="url(#softShadow)">
+    
+  <defs>
+    <linearGradient id="spoolOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D96010" />
+      <stop offset="40%" stop-color="#FF8A38" />
+      <stop offset="70%" stop-color="#F07824" />
+      <stop offset="100%" stop-color="#B24903" />
+    </linearGradient>
+  </defs>
+  <!-- Plastic Cone Base Spindle -->
+  <polygon points="260,110 340,110 365,480 235,480" fill="#EAE8E4" stroke="#C5BFB5" stroke-width="3" />
+  <!-- Wound Thread Body (Tapered Cone) -->
+  <polygon points="255,140 345,140 375,445 225,445" fill="url(#spoolOrange)" />
+  <!-- Thread Wound Texture Ribs -->
+  <line x1="240" y1="160" x2="360" y2="164" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="177" x2="360" y2="181" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="194" x2="360" y2="198" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="211" x2="360" y2="215" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="228" x2="360" y2="232" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="245" x2="360" y2="249" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="262" x2="360" y2="266" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="279" x2="360" y2="283" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="296" x2="360" y2="300" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="313" x2="360" y2="317" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="330" x2="360" y2="334" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="347" x2="360" y2="351" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="364" x2="360" y2="368" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="381" x2="360" y2="385" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="398" x2="360" y2="402" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" /><line x1="240" y1="415" x2="360" y2="419" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2" />
+  <!-- Thread strand leading off cone -->
+  <path d="M 345 140 Q 420 200 390 320 Q 360 400 440 460" fill="none" stroke="#F07824" stroke-width="3" stroke-linecap="round" />
+  <!-- Top lip -->
+  <ellipse cx="300" cy="115" rx="38" ry="12" fill="#FFFFFF" stroke="#D1CDC4" stroke-width="3" />
+  <circle cx="300" cy="115" r="14" fill="#262222" />
+
+  </g>
+</svg>
